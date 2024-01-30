@@ -1,0 +1,35 @@
+module revnum(input[31:0]num,input signal,output [31:0] res);
+
+	 xor xor1(res[0], num[0], signal);
+    xor xor2(res[1], num[1], signal);
+    xor xor3(res[2], num[2], signal);
+    xor xor4(res[3], num[3], signal);
+    xor xor5(res[4], num[4], signal);
+    xor xor6(res[5], num[5], signal);
+    xor xor7(res[6], num[6], signal);
+    xor xor8(res[7], num[7], signal);
+    xor xor9(res[8], num[8], signal);
+    xor xor10(res[9], num[9], signal);
+    xor xor11(res[10], num[10], signal);
+    xor xor12(res[11], num[11], signal);
+    xor xor13(res[12], num[12], signal);
+    xor xor14(res[13], num[13], signal);
+    xor xor15(res[14], num[14], signal);
+    xor xor16(res[15], num[15], signal);
+    xor xor17(res[16], num[16], signal);
+    xor xor18(res[17], num[17], signal);
+    xor xor19(res[18], num[18], signal);
+    xor xor20(res[19], num[19], signal);
+    xor xor21(res[20], num[20], signal);
+    xor xor22(res[21], num[21], signal);
+    xor xor23(res[22], num[22], signal);
+    xor xor24(res[23], num[23], signal);
+    xor xor25(res[24], num[24], signal);
+    xor xor26(res[25], num[25], signal);
+    xor xor27(res[26], num[26], signal);
+    xor xor28(res[27], num[27], signal);
+    xor xor29(res[28], num[28], signal);
+    xor xor30(res[29], num[29], signal);
+    xor xor31(res[30], num[30], signal);
+    xor xor32(res[31], num[31], signal);	
+endmodule
